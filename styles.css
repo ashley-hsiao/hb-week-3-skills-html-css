@@ -1,6 +1,15 @@
 /* Your CSS goes here */
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 1em;
+}
+
 form input {
     background-color: #FFFC83;
+}
+
+form input, select {
+    font-size: 1em;
 }
 
 /* Not sure why Sublime giving warning message "Don't use IDS in selectors" */
